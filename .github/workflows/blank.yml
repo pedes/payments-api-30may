@@ -30,6 +30,6 @@ jobs:
           ANYPOINT_CLIENTSECRET: ${{ secrets.ANYPOINT_CLIENTSECRET }}
           ANYPOINT_ORGID: ${{ secrets.ANYPOINT_ORGID }}
         run: |
-          api-catalog publish-asset --organization="$ANYPOINT_ORGID" --client_id="$ANYPOINT_CLIENTID" --client_secret="$ANYPOINT_CLIENTSECRET"
+          api-catalog publish-asset --force-publish --organization="$ANYPOINT_ORGID" --client_id="$ANYPOINT_CLIENTID" --client_secret="$ANYPOINT_CLIENTSECRET"
           
           
