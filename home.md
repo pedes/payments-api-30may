@@ -1,6 +1,6 @@
 # Payments API - UAPIM
 
-Permits payments of orders if current User has access permissions to it. 
+Permits payments of orders if current User has access permissions to it. HOLA
 Developed by Andres.
 
 **URL** : `/api/payments/:pk/`
